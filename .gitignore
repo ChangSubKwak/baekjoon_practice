@@ -2,4 +2,8 @@
 .project
 .settings/
 bin
+.gradle
+.idea
+.gitignore
+
 
