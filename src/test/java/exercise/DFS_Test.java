@@ -20,6 +20,6 @@ class DFS_Test {
             Arrays.asList(2)
         );
 
-        Assertions.assertThat(dfs.execute()).isEqualTo(Arrays.asList(0, 1, 3, 4, 2, 5, 6));
+        Assertions.assertThat(dfs.execute(node)).isEqualTo(Arrays.asList(0, 1, 3, 4, 2, 5, 6));
     }
 }
